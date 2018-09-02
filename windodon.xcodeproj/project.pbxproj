@@ -12,6 +12,10 @@
 		29321953213BECB00010C15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29321951213BECB00010C15F /* Main.storyboard */; };
 		29321955213BECB10010C15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29321954213BECB10010C15F /* Assets.xcassets */; };
 		29321958213BECB10010C15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29321956213BECB10010C15F /* LaunchScreen.storyboard */; };
+		29321960213BEDE80010C15F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932195F213BEDE80010C15F /* User.swift */; };
+		29321962213BEEE90010C15F /* Toot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29321961213BEEE90010C15F /* Toot.swift */; };
+		29321964213BEF940010C15F /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29321963213BEF940010C15F /* TimelineViewController.swift */; };
+		29321966213C03C10010C15F /* TootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29321965213C03C10010C15F /* TootTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		29321954213BECB10010C15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29321957213BECB10010C15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29321959213BECB10010C15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2932195F213BEDE80010C15F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29321961213BEEE90010C15F /* Toot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toot.swift; sourceTree = "<group>"; };
+		29321963213BEF940010C15F /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		29321965213C03C10010C15F /* TootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				2932194D213BECB00010C15F /* AppDelegate.swift */,
 				2932194F213BECB00010C15F /* ViewController.swift */,
+				2932195F213BEDE80010C15F /* User.swift */,
+				29321961213BEEE90010C15F /* Toot.swift */,
+				29321963213BEF940010C15F /* TimelineViewController.swift */,
 				29321951213BECB00010C15F /* Main.storyboard */,
+				29321965213C03C10010C15F /* TootTableViewCell.swift */,
 				29321954213BECB10010C15F /* Assets.xcassets */,
 				29321956213BECB10010C15F /* LaunchScreen.storyboard */,
 				29321959213BECB10010C15F /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29321950213BECB00010C15F /* ViewController.swift in Sources */,
+				29321966213C03C10010C15F /* TootTableViewCell.swift in Sources */,
 				2932194E213BECB00010C15F /* AppDelegate.swift in Sources */,
+				29321960213BEDE80010C15F /* User.swift in Sources */,
+				29321962213BEEE90010C15F /* Toot.swift in Sources */,
+				29321964213BEF940010C15F /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
